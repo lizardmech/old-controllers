@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/cad/clean/si8920/BLDC_4.sch</source>
+    <date>5/09/2016 10:35:21 PM</date>
+    <tool>Eeschema 4.0.0-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BLDC Driver hybrid</title>
+        <company>Varanid Cybernetic Systems</company>
+        <rev>0.1</rev>
+        <date>1 feb 2016</date>
+        <source>BLDC_4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Top level"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power MOSFETS/" tstamps="/53F826DC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2016-02-15</date>
+        <source>mosfets.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P7">
+      <value>IN-</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B63</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>IN+</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B6A</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>MOTOR3</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B71</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>MOTOR2</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B78</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>MOTOR1</value>
+      <footprint>CRF1:1PAD_4x5mm</footprint>
+      <libsource lib="BLDC_4-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53FA5B7F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E64B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E652</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E65E</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E665</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E688</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>53F8E68F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574D1555</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574DF75B</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574E17A0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>39K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574EDF4E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.3K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574EE187</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>39K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574EEA9B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.3K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574EEAA1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>39K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574EEB5B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1.3K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574EEB61</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>39K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574F0FA9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1.3K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574F0FAF</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Ti_Booster_40_J1</value>
+      <footprint>CRF1:SIL-10J1</footprint>
+      <libsource lib="crf_1" part="Ti_Booster_40_J1"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574E7CB3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Ti_Booster_40_J2</value>
+      <footprint>CRF1:SIL-10J2</footprint>
+      <libsource lib="crf_1" part="Ti_Booster_40_J2"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574E7D9E</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Ti_Booster_40_J3</value>
+      <footprint>CRF1:SIL-10J3</footprint>
+      <libsource lib="crf_1" part="Ti_Booster_40_J3"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574E7E92</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Ti_Booster_40_J4</value>
+      <footprint>CRF1:SIL-10J4</footprint>
+      <libsource lib="crf_1" part="Ti_Booster_40_J4"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574E7F93</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>MINI-USB-SCHIELD-32005-201</value>
+      <footprint>con-cypressindustries-32005-201</footprint>
+      <libsource lib="crf_1" part="MINI-USB-SCHIELD-32005-201"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574F1CCA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DFLS1150-7</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574D679E</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574F9260</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574F938A</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>NCP1117ST33T3G</value>
+      <footprint>CRF1:SOT-223</footprint>
+      <libsource lib="regul" part="NCP1117ST33T3G"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574FE289</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>2.2uf</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574FF492</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100uf</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>574FF58A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DFLS1150-7</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57500FE2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DFLS1150-7</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57501773</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>ferrite</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5773F99B</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>ferrite</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57746A8B</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>ferrite</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5774A326</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>ferrite</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5774C42F</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>ferrite</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5774F7FD</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>ferrite</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577543EB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ADuM7223</value>
+      <footprint>CRF1:LGA-13</footprint>
+      <libsource lib="crf_1" part="ADuM7223"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577575F2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5775A3FA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5775A51C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5775D5D1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2.2</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5775D702</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ADuM7223</value>
+      <footprint>CRF1:LGA-13</footprint>
+      <libsource lib="crf_1" part="ADuM7223"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57760967</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2.2</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57760976</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5776097C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5776098B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57760991</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADuM7223</value>
+      <footprint>CRF1:LGA-13</footprint>
+      <libsource lib="crf_1" part="ADuM7223"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57765C5B</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>2.2</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57765C6A</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57765C70</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57765C7F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>2.2uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57765C85</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>tl783</value>
+      <footprint>TO_SOT_Packages_SMD:TO-263-3Lead</footprint>
+      <libsource lib="crf_1" part="tl783"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5773581D</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5773BCEF</tstamp>
+    </comp>
+    <comp ref="R300">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5773C14C</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100uf</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5775B2DB</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5775BACC</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100uf</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5776284A</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577629B3</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>NTC10K</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5776EF22</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>10K</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5776F09F</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5776F20F</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>5778FFE3</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577912FA</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577C928C</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577CD854</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577D62AC</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577DBBB7</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577E39E0</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D_Schottky_Small</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>577F39D7</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R4</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B1EC0A</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R4</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B2E79F</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>R4</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B3752A</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>R4</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B3F69A</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>R4</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B46657</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>R4</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B52AFD</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>R39k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B68305</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R39k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B68F17</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>R39k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B6A230</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>R39k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B6AC36</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>R39k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B6E2F9</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>R39k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B6F2FF</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDMT-800</value>
+      <footprint>CRF1:P-PG-HSOF-08</footprint>
+      <libsource lib="crf_1" part="FDMT-800"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B874D9</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>FDMT-800</value>
+      <footprint>CRF1:P-PG-HSOF-08</footprint>
+      <libsource lib="crf_1" part="FDMT-800"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B8768C</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>FDMT-800</value>
+      <footprint>CRF1:P-PG-HSOF-08</footprint>
+      <libsource lib="crf_1" part="FDMT-800"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B88AEE</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>FDMT-800</value>
+      <footprint>CRF1:P-PG-HSOF-08</footprint>
+      <libsource lib="crf_1" part="FDMT-800"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B88C5D</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>FDMT-800</value>
+      <footprint>CRF1:P-PG-HSOF-08</footprint>
+      <libsource lib="crf_1" part="FDMT-800"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B89143</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>FDMT-800</value>
+      <footprint>CRF1:P-PG-HSOF-08</footprint>
+      <libsource lib="crf_1" part="FDMT-800"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57B892E4</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SI8920</value>
+      <footprint>SMD_Packages:DIP-8_SMD</footprint>
+      <libsource lib="crf_1" part="SI8920"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BDD61A</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ad623</value>
+      <footprint>Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm</footprint>
+      <libsource lib="crf_1" part="ad623"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE1ACC</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>33nf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE654C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE6A1D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE6F91</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0.001R</value>
+      <footprint>CRF1:shunt_ERJ-MS6SF1M0U</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE76A5</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>4.7nf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE8F5C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE8F62</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BE8F68</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10Mr</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BED442</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPS72116DBVR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="crf_1" part="TPS72116DBVR"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BEE843</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uf</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BF531C</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uf</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BF7F4A</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BF7742</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BF78B2</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BFA4F1</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57BFA797</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C00B09</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C076AB</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100pf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C08413</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C09812</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C09A13</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>SI8920</value>
+      <footprint>SMD_Packages:DIP-8_SMD</footprint>
+      <libsource lib="crf_1" part="SI8920"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0CB</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ad623</value>
+      <footprint>Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm</footprint>
+      <libsource lib="crf_1" part="ad623"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0D1</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>33nf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0D7</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0DD</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0E3</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>0.001R</value>
+      <footprint>CRF1:shunt_ERJ-MS6SF1M0U</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0E9</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>4.7nf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0F9</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>R20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D0FF</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>R20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D105</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10Mr</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D117</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D12F</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D135</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D14A</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D150</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D162</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D172</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100pf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D178</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D183</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C0D189</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>15uf</value>
+      <footprint>Capacitors_SMD:C_2225</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C1A131</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>R1SE-0505-R</value>
+      <footprint>CRF1:recom_power</footprint>
+      <libsource lib="crf_1" part="R1SE-0505-R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C3E863</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C403BB</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C40572</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C42832</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C42838</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>R1SE-0505-R</value>
+      <footprint>CRF1:recom_power</footprint>
+      <libsource lib="crf_1" part="R1SE-0505-R"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C46FC6</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C46FD8</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C46FDE</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C46FEC</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C46FF2</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>r20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C51CCD</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>r20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C528EB</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>r20</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C56299</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C5EBB5</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>LM340MPX-5</value>
+      <libsource lib="crf_1" part="LM340MPX-5"/>
+      <sheetpath names="/Power MOSFETS/" tstamps="/53F826DC/"/>
+      <tstamp>57C6161E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="crf_1" part="ADuM7223">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADuM7223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VIA" type="passive"/>
+        <pin num="3" name="VIB" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="DIS" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="VDD" type="passive"/>
+        <pin num="8" name="GNDB" type="passive"/>
+        <pin num="9" name="VOB" type="passive"/>
+        <pin num="10" name="VDDB" type="passive"/>
+        <pin num="11" name="GNDA" type="passive"/>
+        <pin num="12" name="VOA" type="passive"/>
+        <pin num="13" name="VDDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-cache" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_Small">
+      <description>Diode Schottky</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="FDMT-800">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDMT-800</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="LM340MPX-5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM340MPX-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="MINI-USB-SCHIELD-32005-201">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MINI-USB-SCHIELD-32005-201</field>
+        <field name="Footprint">con-cypressindustries-32005-201</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="M1" name="S1" type="passive"/>
+        <pin num="M2" name="S2" type="passive"/>
+        <pin num="M3" name="S3" type="passive"/>
+        <pin num="M4" name="S4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="NCP1117ST50T3G">
+      <aliases>
+        <alias>NCP1117ST12T3G</alias>
+        <alias>NCP1117ST15T3G</alias>
+        <alias>NCP1117ST18T3G</alias>
+        <alias>NCP1117ST20T3G</alias>
+        <alias>NCP1117ST25T3G</alias>
+        <alias>NCP1117ST285T3G</alias>
+        <alias>NCP1117ST33T3G</alias>
+      </aliases>
+      <description>1A Low drop-out regulator, Fixed Output 5V, SOT223</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>SOT223</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117ST50T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BLDC_4-rescue" part="R-RESCUE-BLDC_4">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-BLDC_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="R1SE-0505-R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R1SE-0505-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin-" type="input"/>
+        <pin num="2" name="Vin+" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="Vout-" type="input"/>
+        <pin num="5" name="Vout+" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="SI8920">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SI8920</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDA" type="input"/>
+        <pin num="2" name="AIP" type="input"/>
+        <pin num="3" name="AIN" type="input"/>
+        <pin num="4" name="GNDA" type="input"/>
+        <pin num="5" name="GNDB" type="input"/>
+        <pin num="6" name="AON" type="input"/>
+        <pin num="7" name="AOP" type="input"/>
+        <pin num="8" name="VDDB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="TPS72116DBVR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS72116DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="in" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="OUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="Ti_Booster_40_J1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Ti_Booster_40_J1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1.01/Vcc" type="power_in"/>
+        <pin num="2" name="1.02/PB5" type="BiDi"/>
+        <pin num="3" name="1.03/PB0/Rxd" type="BiDi"/>
+        <pin num="4" name="1.04/PB1/TxD" type="BiDi"/>
+        <pin num="5" name="1.05/PE4" type="BiDi"/>
+        <pin num="6" name="1.06/PE5" type="BiDi"/>
+        <pin num="7" name="1.07/PB4" type="BiDi"/>
+        <pin num="8" name="1.08/PA5" type="BiDi"/>
+        <pin num="9" name="1.09/PA6" type="BiDi"/>
+        <pin num="10" name="1.10/PA7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="Ti_Booster_40_J2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Ti_Booster_40_J2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2.01/GND" type="power_in"/>
+        <pin num="2" name="2.02/PB2" type="BiDi"/>
+        <pin num="3" name="2.03/PE0" type="BiDi"/>
+        <pin num="4" name="2.04/PF0" type="BiDi"/>
+        <pin num="5" name="2.05/RESET" type="BiDi"/>
+        <pin num="6" name="2.06/PB7" type="BiDi"/>
+        <pin num="7" name="2.07/PB6" type="BiDi"/>
+        <pin num="8" name="2.08/PA4" type="BiDi"/>
+        <pin num="9" name="2.09/PA3" type="BiDi"/>
+        <pin num="10" name="2.10/PA2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="Ti_Booster_40_J3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Ti_Booster_40_J3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.01/+5V" type="power_in"/>
+        <pin num="2" name="3.02/GND" type="BiDi"/>
+        <pin num="3" name="3.03/PD0" type="BiDi"/>
+        <pin num="4" name="3.04/PD1" type="BiDi"/>
+        <pin num="5" name="3.05/PD2" type="BiDi"/>
+        <pin num="6" name="3.06/PD3" type="BiDi"/>
+        <pin num="7" name="3.07/PE1" type="BiDi"/>
+        <pin num="8" name="3.08/PE2" type="BiDi"/>
+        <pin num="9" name="3.09/PE3" type="BiDi"/>
+        <pin num="10" name="3.10/PF1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="Ti_Booster_40_J4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Ti_Booster_40_J4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="4.01/PF2" type="power_in"/>
+        <pin num="2" name="4.02/PF3" type="BiDi"/>
+        <pin num="3" name="4.03/PB3" type="BiDi"/>
+        <pin num="4" name="4.04/PC4" type="BiDi"/>
+        <pin num="5" name="4.05/PC5" type="BiDi"/>
+        <pin num="6" name="4.06/PC6" type="BiDi"/>
+        <pin num="7" name="4.07/PC7" type="BiDi"/>
+        <pin num="8" name="4.08/PD6" type="BiDi"/>
+        <pin num="9" name="4.09/PD7" type="BiDi"/>
+        <pin num="10" name="4.10/PF4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="ad623">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ad623</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-RG" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="-Vs" type="input"/>
+        <pin num="5" name="REF" type="input"/>
+        <pin num="6" name="Out" type="input"/>
+        <pin num="7" name="+VS" type="input"/>
+        <pin num="8" name="+Rg" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="crf_1" part="tl783">
+      <description>Linear Regulator +ADJ 150V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">tl783</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="VO" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BLDC_4-rescue">
+      <uri>E:\cad\clean\si8920\BLDC_4-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="crf_1">
+      <uri>E:\cad\clean\si8920\Libraries\crf_1.lib</uri>
+    </library>
+    <library logical="BLDC_4-cache">
+      <uri>E:\cad\clean\si8920\BLDC_4-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Power MOSFETS/PHASE_3">
+      <node ref="P10" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="2" name="/Power MOSFETS/H2_VS">
+      <node ref="U3" pin="11"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="P9" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="3" name="/Power MOSFETS/PHASE_1">
+      <node ref="R11" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="X1" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C56" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U11" pin="4"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C45" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R300" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R50" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="P7" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C35" pin="2"/>
+    </net>
+    <net code="5" name="V_SUPPLY">
+      <node ref="P6" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="6" name="+1V5">
+      <node ref="C48" pin="1"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="7" name="/Power MOSFETS/sense1_P">
+      <node ref="U4" pin="7"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R18-Pad2)">
+      <node ref="U6" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R18-Pad1)">
+      <node ref="U6" pin="8"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="10" name="+3V3">
+      <node ref="U11" pin="7"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R49" pin="1"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="11" name="Net-(R37-Pad2)">
+      <node ref="U6" pin="6"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="12" name="/Power MOSFETS/CurrentA">
+      <node ref="C35" pin="1"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="13" name="+5VA">
+      <node ref="C21" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="14" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="16" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="17" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="18" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="19" name="Net-(Q6-Pad3)">
+      <node ref="R40" pin="1"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="20" name="Net-(D12-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="U5" pin="12"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="21" name="Net-(R24-Pad2)">
+      <node ref="R32" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C20-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C20-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="24" name="Net-(C34-Pad1)">
+      <node ref="U6" pin="3"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="25" name="Net-(R21-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D4-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="27" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C34-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="29" name="Net-(R15-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="30" name="Net-(U13-Pad3)">
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="31" name="Net-(U13-Pad6)">
+      <node ref="U13" pin="6"/>
+    </net>
+    <net code="32" name="Net-(U13-Pad7)">
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="33" name="Net-(U13-Pad8)">
+      <node ref="U13" pin="8"/>
+    </net>
+    <net code="34" name="+5V">
+      <node ref="C32" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C18" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="X1" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U12" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U13" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="C54" pin="1"/>
+      <node ref="C51" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C55" pin="2"/>
+    </net>
+    <net code="35" name="Net-(U12-Pad3)">
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="36" name="Net-(U12-Pad6)">
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="37" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="38" name="Net-(U12-Pad8)">
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="39" name="/Power MOSFETS/sense2_N">
+      <node ref="U10" pin="6"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="40" name="Net-(R55-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="41" name="Net-(R53-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="42" name="/Power MOSFETS/sense1_N">
+      <node ref="R13" pin="2"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="43" name="/Power MOSFETS/sense2_P">
+      <node ref="R43" pin="2"/>
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="44" name="GNDD">
+      <node ref="R39" pin="2"/>
+      <node ref="C57" pin="1"/>
+      <node ref="C58" pin="1"/>
+      <node ref="U13" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="R38" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="45" name="+5VD">
+      <node ref="C58" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="U13" pin="5"/>
+    </net>
+    <net code="46" name="Net-(R54-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="R54" pin="1"/>
+    </net>
+    <net code="47" name="Net-(R51-Pad2)">
+      <node ref="U11" pin="1"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="48" name="Net-(R51-Pad1)">
+      <node ref="U11" pin="8"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="49" name="Net-(R52-Pad2)">
+      <node ref="U11" pin="6"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C39-Pad1)">
+      <node ref="U10" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C39-Pad2)">
+      <node ref="U10" pin="3"/>
+      <node ref="C39" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="52" name="Net-(C44-Pad1)">
+      <node ref="C44" pin="1"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C44-Pad2)">
+      <node ref="C44" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="54" name="/Power MOSFETS/CurrentC">
+      <node ref="C45" pin="1"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="55" name="/Power MOSFETS/M_H1">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="56" name="/Power MOSFETS/M_L1">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="58" name="Net-(D5-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="13"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="60" name="/Power MOSFETS/M_H3">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="61" name="/Power MOSFETS/M_L3">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="62" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="63" name="Net-(D13-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C13-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="65" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="13"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="66" name="GNDA">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C53" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C52" pin="1"/>
+    </net>
+    <net code="67" name="VDD">
+      <node ref="C14" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="R82" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U5" pin="10"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="68" name="/Power MOSFETS/M_H2">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="69" name="/Power MOSFETS/M_L2">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="71" name="Net-(D9-Pad1)">
+      <node ref="U3" pin="9"/>
+      <node ref="D9" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="72" name="Net-(J3-Pad5)">
+      <node ref="R3" pin="2"/>
+      <node ref="J3" pin="5"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(J3-Pad4)">
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="75" name="/Power MOSFETS/H1_VS">
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="76" name="/Power MOSFETS/H2_VS">
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="77" name="Net-(J3-Pad6)">
+      <node ref="R5" pin="2"/>
+      <node ref="J3" pin="6"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="78" name="/Power MOSFETS/H3_VS">
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="79" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="81" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="82" name="Net-(J3-Pad10)">
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="83" name="/Power MOSFETS/M_H1">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="84" name="/Power MOSFETS/M_L1">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="85" name="/Power MOSFETS/M_H2">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="86" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="87" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="88" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="89" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="90" name="Net-(J4-Pad10)">
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="91" name="Net-(X1-Pad2)">
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="92" name="Net-(X1-Pad3)">
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="93" name="Net-(X1-Pad4)">
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="94" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="95" name="/Power MOSFETS/M_L2">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="96" name="/Power MOSFETS/M_H3">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="97" name="/Power MOSFETS/M_L3">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="98" name="/Power MOSFETS/CurrentA">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="99" name="/Power MOSFETS/CurrentB">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="100" name="/Power MOSFETS/CurrentC">
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="101" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="102" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="103" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="104" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="105" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="106" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="107" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="108" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="109" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="110" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="111" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="112" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="113" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="114" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="115" name="Net-(R300-Pad1)">
+      <node ref="U8" pin="1"/>
+      <node ref="R82" pin="2"/>
+      <node ref="R300" pin="1"/>
+    </net>
+    <net code="116" name="Net-(C24-Pad2)">
+      <node ref="R49" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="117" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="118" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="119" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="120" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="121" name="Net-(R25-Pad2)">
+      <node ref="R40" pin="2"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="122" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="123" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="124" name="Net-(D4-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+  </nets>
+</export>
